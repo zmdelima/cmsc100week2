@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMSC 100 HTML 5</title>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <form method="GET" action="http://localhost:5000/students">
+    <input type="text" name="studNo" placeholder="Student Number" pattern="^[0-9]{4}-[0-9]{5}$" required=""/>
+    <input type="text" name="name" placeholder="Name" />
+    <input type="date" name="bdate"/>
+    <input type="submit" value="Create" />
+    <!-- types of input values
+    <input type="month" name="month" />
+    <input type="week" name="week" />
+    <input type="color" name="color" />
+    <input type="range" name="range" />
+    <input type="number" name="number" />
+    <input type="time" name="time" />
+    <input type="email" name="email" />
+    <input type="url" name="url" />
+    -->
+    </form>
+    
+    <!--
+    <header></header>
+    <nav></nav>
+    <article>
+      <section> </section>
+    </article>
+    <aside></aside>
+    <footer></footer>
+    -->
+  </body>
+</html>
